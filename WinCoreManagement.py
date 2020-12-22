@@ -33,7 +33,7 @@ class Utils:
         self.mutex_photo = Lock()  # 照片锁
         self.mutex_sock = Lock()  # 套接字上传锁
         # 服务端的ip和port
-        self.server_ip = '192.168.43.161'
+        self.server_ip = '自己主机的IP地址'
         self.server_port = 9999
 
         # 本地调试日志
